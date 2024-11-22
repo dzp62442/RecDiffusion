@@ -23,7 +23,7 @@ if __name__ == "__main__":
         "../DIR-D/testing",
         real_image_size=(384, 512),
         train_batch_size=64,
-        val_batch_size=4,
+        val_batch_size=2,
         train_lr=3e-4,
         train_num_steps=150000,
         gradient_accumulate_every=1,

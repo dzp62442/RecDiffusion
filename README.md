@@ -1,3 +1,16 @@
+## 1 环境配置
+
+```shell
+
+conda create -n rec-diffusion python=3.12.2
+conda activate rec-diffusion
+pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements.txt
+```
+
+
+------
+
 # [CVPR2024] RecDiffusion: Rectangling for Image Stitching with Diffusion Models
 [paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhou_RecDiffusion_Rectangling_for_Image_Stitching_with_Diffusion_Models_CVPR_2024_paper.pdf)
 
